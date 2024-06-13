@@ -35,7 +35,10 @@ const SignUp = () => {
                 <div className="row">
                     <div className="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
                         <div className="row g-3">
-                        
+                        <div className="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+                                <label htmlFor="" className="label form-label">name</label>
+                                <input type="text" className="input form-control" name='name' value={data.name} onChange={InputHandler}/>
+                            </div>
                             <div className="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
                                 <label htmlFor="" className="label form-label">Email</label>
                                 <input type="text" className="input form-control" name='Email' value={data.Email} onChange={InputHandler}/>
