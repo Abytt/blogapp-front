@@ -7,11 +7,7 @@ import SignIN from './components/SignIN';
 function App() {
   return (
     
-      <BrowserRouter>
-      <Routes>
-      <Route path='/signIN' element={<SignIN/>}/>
-        <Route path='/signUp' element={<SignUp/>}/>
-        </Routes></BrowserRouter>
+   <SignIN/>
     
   );
 }
